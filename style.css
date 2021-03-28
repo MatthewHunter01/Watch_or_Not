@@ -122,13 +122,15 @@ footer {
     padding: 5px;
 }
 
-.host, .locations {
+.host, 
+.locations {
     text-align: center;
     color: #797e83;
     border-bottom: #797e83 solid;
 }
 
-.spotify {
+.spotify, 
+.google {
     display: inline-block; 
     overflow: hidden; 
     padding-bottom: 10px;

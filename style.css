@@ -96,7 +96,7 @@ footer {
     display: inline-block;
 }
 
-.complete { 
+/* .complete { 
     display:none;
 }
 
@@ -106,19 +106,21 @@ footer {
     font-size:13px;
     padding:3px;
     cursor:pointer;
-}
+} */
 
 .jay, .mj {
+    display: block;
     max-width: 220px;
     max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .row {
-    display: flex;
+    display: block;
 }
 
 .column {
-    flex: 33.33%;
     padding: 5px;
 }
 
@@ -130,16 +132,19 @@ footer {
 }
 
 .spotify, 
-.google {
-    display: inline-block; 
+.google,
+.apple {
+    display: block; 
     overflow: hidden; 
     padding-bottom: 10px;
     border-top-left-radius: 13px; 
     border-top-right-radius: 13px; 
     border-bottom-right-radius: 13px; 
     border-bottom-left-radius: 13px; 
-    width: 210px; 
+    width: 250px; 
     height: 62px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* ID's */
@@ -171,6 +176,18 @@ footer {
     }
     .nav a {
         border-bottom-color: transparent;
+    }
+    .row {
+        display: flex;
+    }
+    .column {
+        flex: 33.33%;
+        padding: 5px;
+    }
+    .spotify, 
+    .google,
+    .apple {
+        display: inline-block;
     }
 }
 

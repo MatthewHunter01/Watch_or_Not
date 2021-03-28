@@ -106,6 +106,16 @@ footer {
     padding:3px;
     cursor:pointer;
 }
+
+.jay, .mj {
+    max-width: 220px;
+    max-height: 200px;
+}
+
+.host {
+    float: left;
+}
+
 /* ID's */
 
 #episodes {

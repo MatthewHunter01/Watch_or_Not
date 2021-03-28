@@ -17,6 +17,7 @@ footer {
     width: 100%;
 }
 
+
 /* classes  */
 
 .grid {
@@ -112,8 +113,31 @@ footer {
     max-height: 200px;
 }
 
-.host {
-    float: left;
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.host, .locations {
+    text-align: center;
+    color: #797e83;
+    border-bottom: #797e83 solid;
+}
+
+.spotify {
+    display: inline-block; 
+    overflow: hidden; 
+    padding-bottom: 10px;
+    border-top-left-radius: 13px; 
+    border-top-right-radius: 13px; 
+    border-bottom-right-radius: 13px; 
+    border-bottom-left-radius: 13px; 
+    width: 210px; 
+    height: 62px;
 }
 
 /* ID's */

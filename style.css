@@ -96,24 +96,18 @@ footer {
     display: inline-block;
 }
 
-/* .complete { 
-    display:none;
-}
-
-.more { 
-    background:lightblue;
-    color:navy;
-    font-size:13px;
-    padding:3px;
-    cursor:pointer;
-} */
-
 .jay, .mj {
     display: block;
     max-width: 220px;
     max-height: 200px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.name {
+    text-align: center;
+    font-size: 28px;
+    border: blue solid;
 }
 
 .row {

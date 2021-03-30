@@ -1,5 +1,5 @@
 
-button {
+/* button {
     margin-top: auto;
     border-radius: 1.4mm;
     background-color: white;
@@ -9,7 +9,7 @@ button {
     cursor: pointer;
     box-shadow: 4px 4px 2px rgba(211, 211, 211, 0.753); 
     text-align: center;
-}
+} */
 
 footer {
     background-color: rgb(194, 52, 27);
@@ -41,6 +41,18 @@ footer {
     max-height: 200px;
     box-shadow: 4px 3px 15px rgb(124, 122, 122);
     margin-bottom: 15px;
+}
+
+.play {
+    margin-top: auto;
+    border-radius: 1.4mm;
+    background-color: white;
+    border: thin;
+    height: 2.5em;
+    font-size: 1.1em;
+    cursor: pointer;
+    box-shadow: 4px 4px 2px rgba(211, 211, 211, 0.753); 
+    text-align: center;
 }
 
 .banner {

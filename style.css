@@ -55,6 +55,10 @@ footer {
     text-align: center;
 }
 
+.play:hover{
+    background-color: #52bab3;
+}
+
 .banner {
     max-width: 3000px;
     max-height: 500px;
@@ -161,8 +165,8 @@ footer {
     flex-direction: column;
 }
 
-#episodes button:hover {
-    background-color: #52bab3;
+#more {
+    display: none;
 }
 
 /* Media Queries */

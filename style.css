@@ -165,9 +165,14 @@ footer {
     flex-direction: column;
 }
 
-#more {
+#more,
+#more_two,
+#more_three,
+#more_four,
+#more_five {
     display: none;
 }
+
 
 /* Media Queries */
 

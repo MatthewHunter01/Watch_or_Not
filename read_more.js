@@ -13,6 +13,8 @@ function myFunction() {
       moreText.style.display = "inline";
     }
   }
+  var elbtnText = document.getElementById('myBtn');
+  elbtnText.onclick = myFunction;
 
   function myFunction_two() {
     var dots_two = document.getElementById("dots_two");
@@ -29,6 +31,9 @@ function myFunction() {
       moreText.style.display = "inline";
     }
   }
+  
+  var elbtnTextTwo = document.getElementById('myBtn_two');
+  elbtnTextTwo.onclick = myFunction_two;
 
   function myFunction_three() {
     var dots_three = document.getElementById("dots_three");
@@ -45,6 +50,9 @@ function myFunction() {
       moreText.style.display = "inline";
     }
   }
+  
+  var elbtnTextThree = document.getElementById('myBtn_three');
+  elbtnTextThree.onclick = myFunction_three;
 
   function myFunction_four() {
     var dots_four = document.getElementById("dots_four");
@@ -62,6 +70,9 @@ function myFunction() {
     }
   }
 
+  var elbtnTextFour = document.getElementById('myBtn_four');
+  elbtnTextFour.onclick = myFunction_four;
+
   function myFunction_five() {
     var dots_five = document.getElementById("dots_five");
     var moreText = document.getElementById("more_five");
@@ -77,6 +88,9 @@ function myFunction() {
       moreText.style.display = "inline";
     }
   }
+
+  var elbtnTextFive = document.getElementById('myBtn_five');
+  elbtnTextFive.onclick = myFunction_five;
 
   function myFunction_six() {
     var dots_six = document.getElementById("dots_six");
@@ -94,6 +108,9 @@ function myFunction() {
     }
   }
 
+  var elbtnTextSix = document.getElementById('myBtn_six');
+  elbtnTextSix.onclick = myFunction_six;
+
   function myFunction_seven() {
     var dots_seven = document.getElementById("dots_seven");
     var moreText = document.getElementById("more_seven");
@@ -109,6 +126,9 @@ function myFunction() {
       moreText.style.display = "inline";
     }
   }
+
+  var elbtnTextSeven = document.getElementById('myBtn_seven');
+  elbtnTextSeven.onclick = myFunction_seven;
 
   function myFunction_eight() {
     var dots_eight = document.getElementById("dots_eight");
@@ -126,6 +146,9 @@ function myFunction() {
     }
   }
 
+  var elbtnTextEight = document.getElementById('myBtn_eight');
+  elbtnTextEight.onclick = myFunction_eight;
+
   function myFunction_nine() {
     var dots_nine = document.getElementById("dots_nine");
     var moreText = document.getElementById("more_nine");
@@ -141,6 +164,9 @@ function myFunction() {
       moreText.style.display = "inline";
     }
   }
+
+  var elbtnTextNine = document.getElementById('myBtn_nine');
+  elbtnTextNine.onclick = myFunction_nine;
 
   function myFunction_ten() {
     var dots_ten = document.getElementById("dots_ten");
@@ -158,6 +184,9 @@ function myFunction() {
     }
   }
 
+  var elbtnTextTen = document.getElementById('myBtn_ten');
+  elbtnTextTen.onclick = myFunction_ten;
+
   function myFunction_eleven() {
     var dots_eleven = document.getElementById("dots_eleven");
     var moreText = document.getElementById("more_eleven");
@@ -173,6 +202,9 @@ function myFunction() {
       moreText.style.display = "inline";
     }
   }
+
+  var elbtnTextEleven = document.getElementById('myBtn_eleven');
+  elbtnTextEleven.onclick = myFunction_eleven;
 
   function myFunction_twelve() {
     var dots_twelve = document.getElementById("dots_twelve");
@@ -190,6 +222,9 @@ function myFunction() {
     }
   }
 
+  var elbtnTextTwelve = document.getElementById('myBtn_twelve');
+  elbtnTextTwelve.onclick = myFunction_twelve;
+
   function myFunction_thirteen() {
     var dots_thirteen = document.getElementById("dots_thirteen");
     var moreText = document.getElementById("more_thirteen");
@@ -205,6 +240,9 @@ function myFunction() {
       moreText.style.display = "inline";
     }
   }
+
+  var elbtnTextThirteen = document.getElementById('myBtn_thirteen');
+  elbtnTextThirteen.onclick = myFunction_thirteen;
 
   function myFunction_fourteen() {
     var dots_fourteen = document.getElementById("dots_fourteen");
@@ -222,6 +260,9 @@ function myFunction() {
     }
   }
 
+  var elbtnTextFourteen = document.getElementById('myBtn_fourteen');
+  elbtnTextFourteen.onclick = myFunction_fourteen;
+
   function myFunction_fifteen() {
     var dots_fifteen = document.getElementById("dots_fifteen");
     var moreText = document.getElementById("more_fifteen");
@@ -237,3 +278,6 @@ function myFunction() {
       moreText.style.display = "inline";
     }
   }
+
+  var elbtnTextFifteen = document.getElementById('myBtn_fifteen');
+  elbtnTextFifteen.onclick = myFunction_fifteen;
